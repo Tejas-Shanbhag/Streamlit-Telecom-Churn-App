@@ -13,8 +13,8 @@ def hyperparameters(model_name):
 
 
 def model(model_name,params):
-    if model_name == 'Logistic Regression':
+    if model_name =='Logistic Regression':
         estimator = LogisticRegression(C = params['C'])
-    if model_name == 'LightGBM':
+    if model_name =='LightGBM':
         estimator = lgb.LGBMClassifier(n_estimators = params['n_estimators'],max_depth = params['max_depth'] )
     return estimator

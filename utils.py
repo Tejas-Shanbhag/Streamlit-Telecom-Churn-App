@@ -14,7 +14,7 @@ def create_features_target(df,id_col,pred_col):
     y = df[pred_col]
     return X,y
 
-# Defining the function to plot the ROC curve
+# Defining the function for the ROC curve
 def draw_roc( test_actual , test_probs,algo_name):
     plt.figure(figsize=(10,10))
     fpr, tpr, thresholds = metrics.roc_curve( test_actual, test_probs,
