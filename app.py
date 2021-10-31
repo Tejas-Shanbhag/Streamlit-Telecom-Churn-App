@@ -53,8 +53,8 @@ if button_var:
         
         st.header("Model Performance")
         st.write("")
-        st.write(f"The Accuracy of the model is {round(accuracy_score(y_test,preds)*100,2)}%")
-        st.write(f"The AUC Score of the model is {round(roc_auc_score(y_test,pred_probs),2)}")
+        st.write(f"The Accuracy of the  Model is {round(accuracy_score(y_test,preds)*100,2)}%.")
+        st.write(f"The AUC Score of the Model is {round(roc_auc_score(y_test,pred_probs),2)}")
 
 
         fig, ax = plt.subplots(figsize=(10, 10))
