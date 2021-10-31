@@ -53,7 +53,7 @@ if button_var:
         
         st.header("Model Performance")
         st.write("")
-        st.write(f"The Accuracy of the  Model is {round(accuracy_score(y_test,preds)*100,2)}%.")
+        st.write(f"The Accuracy of the  Model is {round(accuracy_score(y_test,preds)*100,2)}%. ")
         st.write(f"The AUC Score of the Model is {round(roc_auc_score(y_test,pred_probs),2)}")
 
 

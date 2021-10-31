@@ -30,6 +30,5 @@ def draw_roc( test_actual , test_probs,algo_name):
     plt.legend(loc="lower right")  
     plt.grid()
     plt.savefig("plots/roc.png")
-
     return None
 
