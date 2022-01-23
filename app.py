@@ -35,7 +35,7 @@ X,y = create_features_target(df,id_col,pred_col)
 X= pd.get_dummies(X)
 
 #Split the data into training and validation sets
-X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2,stratify=y,random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2,stratify=y,random_state=43)
 button_var = st.sidebar.button("Make Predictions")
 
 y_test_list = y_test.values.tolist()
