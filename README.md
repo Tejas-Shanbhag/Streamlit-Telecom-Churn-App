@@ -11,4 +11,4 @@
   ```
   
   
-  ![alt text](http://url/to/img.png)
+  ![alt text](https://github.com/Tejas-Shanbhag/Streamlit-Telecom-Churn-App/blob/main/telecom_image.png)
