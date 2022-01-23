@@ -62,7 +62,7 @@ if button_var:
         plt.savefig('plots/cm.png')
         draw_roc( y_test_bool , pred_probs,clf)
 
-        col1,col2 = st.beta_columns(2)
+        col1,col2 = st.columns(2)
         col1.header("Confusion Matrix")
         col1.image("plots/cm.png")
         col2.header("ROC AUC Curve")
