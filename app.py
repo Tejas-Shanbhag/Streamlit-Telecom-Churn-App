@@ -43,7 +43,7 @@ y_test_bool = [1 if x=='Yes' else 0 for x in y_test_list]
 
 
 if button_var:
-    with st.spinner("Taining the Model....."):
+    with st.spinner("Training the Model....."):
         #train the model
         clf.fit(X_train,y_train)
 
