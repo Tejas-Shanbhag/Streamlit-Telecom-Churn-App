@@ -27,7 +27,7 @@ pred_col = st.sidebar.selectbox('Choose a Prediction column',df.columns,index=le
 model_name = st.sidebar.selectbox("Choose a model",['LightGBM','Logistic Regression'])
 
 
-st.sidebar.subheader("Choose Model Hyperparameterss")
+st.sidebar.subheader("Choose Model Hyperparameters")
 params = hyperparameters(model_name)
 clf = model(model_name,params)
 
