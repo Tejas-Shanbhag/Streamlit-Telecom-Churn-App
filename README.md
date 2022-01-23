@@ -18,6 +18,7 @@
   ## App Layout
   ![alt text](https://github.com/Tejas-Shanbhag/Streamlit-Telecom-Churn-App/blob/main/telecom_image.png)
   
+  
   ## App video
   ```
     https://www.youtube.com/watch?v=vGZ0wYUaN2c
