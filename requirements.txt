@@ -28,7 +28,7 @@ ipython-genutils==0.2.0
 ipywidgets==7.6.3
 jedi==0.18.0
 Jinja2==3.0.1
-joblib @ file:///tmp/build/80754af9/joblib_1613502643832/work
+joblib
 jsonschema==3.2.0
 jupyter-client==6.1.12
 jupyter-core==4.7.1
@@ -41,14 +41,14 @@ matplotlib==3.4.2
 matplotlib-inline==0.1.2
 mistune==0.8.4
 mkl-fft==1.3.0
-mkl-random @ file:///opt/concourse/worker/volumes/live/54b31a45-1da5-4512-5c3a-93c9ff2af8bc/volume/mkl_random_1618853970587/work
+mkl-random
 mkl-service==2.3.0
 nbclient==0.5.3
 nbconvert==6.1.0
 nbformat==5.1.3
 nest-asyncio==1.5.1
 notebook==6.4.0
-numpy @ file:///opt/concourse/worker/volumes/live/6acd2784-8443-45a5-42ec-e10d2d0eaa28/volume/numpy_and_numpy_base_1620831186338/work
+numpy
 packaging==20.9
 pandas==1.2.5
 pandocfilters==1.4.3
@@ -68,23 +68,23 @@ pydeck==0.6.2
 Pygments==2.9.0
 pyparsing==2.4.7
 pyrsistent==0.17.3
-python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
-pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+python-dateutil
+pytz
 pyzmq==22.1.0
 regex==2021.11.10
 requests==2.25.1
-scikit-learn @ file:///opt/concourse/worker/volumes/live/27ad05e5-2546-4218-4550-464724750acc/volume/scikit-learn_1621370399611/work
-scipy @ file:///opt/concourse/worker/volumes/live/7d10d993-3825-404e-6e5d-9947c19e8c6d/volume/scipy_1618855951189/work
+scikit-learn
+scipy
 seaborn==0.11.1
 Send2Trash==1.7.1
-six @ file:///tmp/build/80754af9/six_1623709665295/work
+six
 smmap==4.0.0
 statsmodels==0.13.1
 streamlit==0.83.0
 tenacity==8.0.1
 terminado==0.10.1
 testpath==0.5.0
-threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
+threadpoolctl
 toml==0.10.2
 toolz==0.11.1
 tornado==6.1
