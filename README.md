@@ -10,5 +10,11 @@
   https://share.streamlit.io/tejas-shanbhag/streamlit-telecom-churn-app/main/app.py
   ```
   
-  
+  ## App Layout
   ![alt text](https://github.com/Tejas-Shanbhag/Streamlit-Telecom-Churn-App/blob/main/telecom_image.png)
+  
+  ## App videov
+    ```
+ https://www.youtube.com/watch?v=vGZ0wYUaN2c
+  ```
+
